@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .then((res) => {
           if (res.success) {
-            showToast("✅ Seus dados foram enviados com sucesso!", false)
+            showToast("Seus dados foram enviados com sucesso!", false)
             form.reset()
             // Reset form state
             const formGroups = document.querySelectorAll(".form-group")
