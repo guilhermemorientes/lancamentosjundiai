@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lançamentos Jundiaí</title>
+  
+  <meta name="description" content="Os principais lançamentos de imóveis em Jundiaí e região. Lotes, casas, apartamentos na planta, em obras ou prontos para morar!">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.lancamentosjundiai.com.br/">
+
+  <!-- Open Graph (para Facebook, WhatsApp, etc.) -->
+  <meta property="og:title" content="Lançamentos Jundiaí">
+  <meta property="og:description" content="Lotes, casas e apartamentos na planta, em obras ou prontos para morar em Jundiaí e região.">
+  <meta property="og:image" content="/img/share.png">
+  <meta property="og:url" content="https://www.lancamentosjundiai.com.br/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Lançamentos Jundiaí">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lançamentos Jundiaí">
+  <meta name="twitter:description" content="Confira os melhores imóveis de Jundiaí. Casas, apartamentos e lotes em todas as fases!">
+  <meta name="twitter:image" content="/img/share.png">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJ7NHXT3G3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-KJ7NHXT3G3');
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- Estilos gerais do projeto -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome para ícones sociais (apenas os necessários) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="page-container">
+    <header>
+      <div class="logo-container">
+        <img id="logo" src="img/logo-lancamentos-jundiai.png" alt="Logo Lançamentos Jundiaí">
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="grid-container">
+        <section class="grid-left">
+          <h1>Estamos em Manutenção</h1>
+          <p class="texto-manutencao">
+            Somos especialistas em <strong>lançamentos imobiliários em Jundiaí</strong> e região.
+            Nosso site está temporariamente em manutenção, mas você ainda pode <strong>deixar seus dados</strong>
+            e receber com exclusividade as melhores opções de <strong>apartamentos, casas e loteamentos</strong>
+            direto com as principais construtoras da Cidade.
+          </p>
+        </section>
+
+        <section class="grid-right">
+          <form id="leadForm" aria-label="Formulário de contato">
+            <h2>Receba Nossas Oportunidades</h2>
+
+            <div class="form-group">
+              <label for="nome">Nome Completo</label>
+              <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+              <span class="error-message" id="nome-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required placeholder="seu@email.com">
+              <span class="error-message" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" required placeholder="(11) 99999-9999">
+              <span class="error-message" id="telefone-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="tipo">Tipo de Imóvel</label>
+              <select id="tipo" name="tipo" required>
+                <option value="">Selecione</option>
+                <option>Apartamentos</option>
+                <option>Casas</option>
+                <option>Loteamentos</option>
+              </select>
+              <span class="error-message" id="tipo-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="estagio">Estágio</label>
+              <select id="estagio" name="estagio" required>
+                <option value="">Selecione</option>
+                <option>Na Planta</option>
+                <option>Em Obras</option>
+                <option>Pronto P/ Morar</option>
+              </select>
+              <span class="error-message" id="estagio-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="valor">Valor que Pretende Investir</label>
+              <select id="valor" name="valor" required>
+                <option value="">Selecione</option>
+                <option>Até R$ 300.000</option>
+                <option>De R$ 300.000 a R$ 400.000</option>
+                <option>De R$ 400.000 a R$ 500.000</option>
+                <option>De R$ 500.000 a R$ 600.000</option>
+                <option>De R$ 600.000 a R$ 700.000</option>
+                <option>De R$ 700.000 a R$ 800.000</option>
+                <option>De R$ 800.000 a R$ 900.000</option>
+                <option>De R$ 900.000 a R$ 1.000.000</option>
+                <option>Acima de R$ 1.000.000</option>
+              </select>
+              <span class="error-message" id="valor-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="info">Informações Adicionais</label>
+              <textarea id="info" name="info" rows="3" placeholder="Conte-nos mais sobre o que procura..."></textarea>
+            </div>
+
+            <button type="submit" id="submit-button">
+              <span>RECEBER OPORTUNIDADES</span>
+              <div class="spinner" id="spinner"></div>
+            </button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="copyright">© 2025 - Lançamentos Jundiaí. Todos os direitos reservados.</div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/lancamentosjundiai1/" target="_blank" rel="noopener" aria-label="Facebook">
+            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+          </a>
+          <a href="http://instagram.com/lancamentosjundiai" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.youtube.com/@LancamentosJundiaí1" target="_blank" rel="noopener" aria-label="YouTube">
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Toast visual para confirmação -->
+  <div id="toast-container">
+    <div id="form-toast" class="form-toast">
+      <div class="toast-icon"></div>
+      <div class="toast-message">Mensagem aqui</div>
+    </div>
+  </div>
+
+  <!-- Script do formulário -->
+  <script src="form.js"></script>
+</body>
+</html>
